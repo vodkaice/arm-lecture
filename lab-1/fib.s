@@ -19,11 +19,11 @@ fibonacci:
 	cmp r4,#1	@ Compare R4 wtih 1
 	beq .L4		@ If R4 == 1 goto .L4 (which returns 1)
 
-	subs r0,r4,#1	@ R0 = R4 - 1
+	sub r0,r4,#1	@ R0 = R4 - 1
 	bl fibonacci 	@ Recursive call to fibonacci with R4 - 1 as parameter
 
 	mov r5,r0	@ R5 = R0
-	subs r0,r4,#2	@ R0 = R4 - 2
+	sub r0,r4,#2	@ R0 = R4 - 2
 	bl fibonacci	@ Recursive call to fibonacci with R4 - 2 as parameter
 	adds r0,r5,r0	@ R0 = R5 + R0 (update flags)
 
