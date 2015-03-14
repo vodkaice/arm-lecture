@@ -10,4 +10,4 @@ I modified something as follow to satisfy the request from class :
 
 3.Try to evaluate the efficiency of the Fibonacci sequence and compare recursive and non-recursive performance.
 
-4.Modify the makefile and add a script file to generate Fibonacci sequence from 5 to 40 automaticlly. 
+4.Modify the makefile and add a script file to generate Fibonacci sequence from 5 to 40 automaticially. 
